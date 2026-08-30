@@ -217,10 +217,20 @@ Customer satisfaction, shipping time, and order status should be monitored toget
 
 ---
 
+
 ## 📁 Project Structure
 
+
+
+
+
+
+
+
+
+
 OIBSIP/
-└── Task1/
+└── Task_01/
     ├── Mehwish_Task1.ipynb
     ├── retail_sales_dataset (1).csv
     ├── README.md
@@ -231,6 +241,13 @@ OIBSIP/
         ├── correlation_heatmap.png
         └── return_rate.png
 
+
+
+
+
+
+
+-------
 
 ## ▶️ How to Run the Project
 
