@@ -149,19 +149,29 @@ A correlation heatmap was created to explore relationships between numerical var
 ## 📊 Key Visualizations
 
 ### Monthly Sales Trend
-![Monthly Sales Trend](images/monthly_sales.png)
+<img width="1372" height="539" alt="Monthly Sales Trend" src="https://github.com/user-attachments/assets/b7154568-bc5e-42f0-aa96-79bb11870ce7" />
+
+---
 
 ### Top 10 Best-Selling Products
-![Top 10 Products](images/top_10_products.png)
+<img width="1092" height="538" alt="Top 10 Products" src="https://github.com/user-attachments/assets/0fa490e7-1441-47db-97ae-6d7c78f92f44" />
+
+---
 
 ### Revenue by Product Category
-![Revenue by Category](images/category_revenue.png)
+<img width="971" height="534" alt="Revenue  by Category" src="https://github.com/user-attachments/assets/eedeec62-d714-4438-bf97-87430d6727e9" />
+
+---
 
 ### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
+<img width="756" height="589" alt="Correlation Heatmap" src="https://github.com/user-attachments/assets/b3888170-288e-4864-b432-e0b49fd51681" />
+
+---
 
 ### Return Rate by Product Category
-![Return Rate](images/return_rate.png)
+<img width="884" height="481" alt="Return Rate" src="https://github.com/user-attachments/assets/ae26db33-af2e-4afb-afd6-14fd2481166a" />
+
+---
 
 
 ### 7. Additional Business Analysis
@@ -215,75 +225,27 @@ Marketing and inventory strategies should be adjusted according to regional sale
 
 Customer satisfaction, shipping time, and order status should be monitored together to identify operational improvements that can improve customer retention.
 
----
-
-
-## 📁 Project Structure
-
-
-
-
-
-
-
-
-
-
-OIBSIP/
-└── Task_01/
-    ├── Mehwish_Task1.ipynb
-    ├── retail_sales_dataset (1).csv
-    ├── README.md
-    └── images/
-        ├── monthly_sales.png
-        ├── top_10_products.png
-        ├── category_revenue.png
-        ├── correlation_heatmap.png
-        └── return_rate.png
-
-
-
-
-
 
 
 -------
 
 ## ▶️ How to Run the Project
 
-### 1. Clone the Repository
+1. Clone or download this repository.
+
+2. Navigate to the **Task1** folder.
+
+3. Install the required libraries:
 
 ```bash
-git clone https://github.com/your-username/OIBSIP.git
+pip install pandas numpy matplotlib seaborn
 ```
 
-### 2. Navigate to the Project Folder
+4. Open `Mehwish_Task1.ipynb` using **Jupyter Notebook** or **Google Colab**.
 
-```bash
-cd OIBSIP/Task1
-```
+5. Run all cells to reproduce the analysis and visualizations.
 
-### 3. Install Required Libraries
-
-```bash
-pip install pandas numpy matplotlib seaborn jupyter
-```
-
-### 4. Run Jupyter Notebook
-
-```bash
-jupyter notebook
-```
-
-Open:
-
-```text
-Mehwish_Task1.ipynb
-```
-
-and run all cells.
-
----
+-----
 
 ## 📌 Project Deliverables
 
