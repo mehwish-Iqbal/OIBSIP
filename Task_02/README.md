@@ -187,7 +187,7 @@ Examples include:
 
 The original dataset contained:
 
-- Missing values in Age and Salary
+- Missing values in Age (211) and Salary(24)
 - Phone numbers requiring formatting
 - Inconsistent data representations
 - Columns requiring data type correction
@@ -220,30 +220,39 @@ The final dataset contains:
 
 ----
 
+
 ## 💡 Key Learnings
 
 Through this project, I practiced:
 
 - Data quality assessment
-- Missing value treatment
+- Missing value handling
 - Duplicate detection
 - Data standardization
-- Data type conversion
-- Date handling
-- Outlier detection
+- Data type correction
+- Date formatting
+- Outlier detection using IQR
 - Data validation
 - Exporting cleaned datasets
-- Documenting a data cleaning workflow
 
-----
+---
 
 ## ✅ Conclusion
 
-This project demonstrates a complete data cleaning workflow using Python and Pandas.
+The employee dataset was systematically cleaned, standardized, and validated to create an analysis-ready dataset.
 
-The raw employee dataset was inspected, cleaned, standardized, validated, and exported into a structured dataset ready for further analysis.
+The cleaning process included handling missing values, checking duplicates, standardizing text and identifiers, converting dates, validating numerical values, and performing outlier detection.
 
-The cleaned dataset can now be used confidently for exploratory data analysis, visualization, and business reporting.
+The final cleaned dataset can now be used for:
+
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Reporting
+- Excel and Power BI dashboards
+- Further analytical tasks
+
+Phone records marked **Review** should be verified against the original source before being used for contact operations.
+
 
 ----
 ## 👩‍💻 Author
