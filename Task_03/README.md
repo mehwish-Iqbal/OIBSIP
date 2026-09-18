@@ -1,1 +1,210 @@
+# 📱 Unveiling the Android App Market — Google Play Store Analysis
 
+## 📌 Project Overview
+
+This project analyzes the **Google Play Store ecosystem** to uncover patterns in app categories, ratings, installs, pricing, estimated revenue, and user sentiment.
+
+The analysis focuses on transforming messy real-world app data into meaningful insights that can help developers understand market competition, user preferences, and potential opportunities when planning a new app.
+
+This project was completed as part of the **OIBSIP / AICTE Internship – Task** 3
+
+---
+
+## 🎯 Objectives
+
+* Clean and preprocess Google Play Store datasets
+* Analyze app distribution across categories
+* Identify highly saturated app categories
+* Explore app ratings and category-level rating patterns
+* Analyze app size and number of installs
+* Compare free and paid applications
+* Analyze pricing patterns of paid apps
+* Estimate potential revenue by category
+* Perform sentiment analysis on user reviews
+* Explore positive, negative, and neutral sentiments
+* Analyze sentiment patterns across app categories
+* Create an interactive visualization using Plotly
+* Generate data-driven insights for app developers
+
+---
+
+## 🛠️ Tools & Technologies
+
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **Plotly**
+* **TextBlob / Sentiment Analysis**
+* **Jupyter Notebook**
+
+---
+
+## 📂 Datasets
+
+### 1. Google Play Store Apps Dataset
+
+Contains information about Android applications, including:
+
+* App
+* Category
+* Rating
+* Reviews
+* Size
+* Installs
+* Type
+* Price
+* Content Rating
+* Genres
+* Last Updated
+* Current Version
+* Android Version
+
+### 2. Google Play Store User Reviews Dataset
+
+Contains user review information including:
+
+* App
+* Translated Review
+* Sentiment
+* Polarity
+* Subjectivity
+
+---
+
+## 🧹 Data Cleaning & Preprocessing
+
+The datasets contained several real-world data quality issues. The following preprocessing steps were performed:
+
+* Handled missing values
+* Removed duplicate records
+* Converted numerical columns to appropriate data types
+* Cleaned the `Installs` column by removing characters such as `+` and commas
+* Converted `Price` into numeric format
+* Converted `Reviews` into numeric format
+* Processed app size information
+* Prepared review text for sentiment analysis
+* Created additional variables required for analysis
+
+---
+
+## 📊 Exploratory Data Analysis
+
+### 📱 Category Analysis
+
+Analyzed the distribution of applications across different categories to identify highly populated and competitive areas of the Play Store.
+
+### ⭐ Ratings Analysis
+
+Explored:
+
+* Overall rating distribution
+* Average rating across categories
+* Rating patterns among applications
+
+### 📥 Size & Installs Analysis
+
+Investigated the relationship between application size and number of installs using scatter plots and correlation analysis.
+
+### 💰 Pricing Analysis
+
+Analyzed:
+
+* Free vs. paid applications
+* Distribution of paid app prices
+* Estimated revenue across categories
+
+Estimated revenue was calculated using:
+
+**Estimated Revenue = Installs × Price**
+
+The estimate is intended for comparative analysis rather than actual reported earnings.
+
+---
+
+## 💬 Sentiment Analysis
+
+User reviews were analyzed to classify feedback into:
+
+* **Positive**
+* **Negative**
+* **Neutral**
+
+Sentiment analysis was performed using review-level polarity and subjectivity measures.
+
+The analysis also explored sentiment patterns across application categories to understand how users respond to different types of apps.
+
+---
+
+## 📈 Interactive Visualization
+
+An interactive Plotly visualization was created to explore the relationship between:
+
+**Number of Reviews vs. App Rating**
+
+The visualization allows users to:
+
+* Hover over individual applications
+* Explore app-level details
+* Zoom into the data
+* Compare categories interactively
+
+---
+
+## 🔍 Key Insights
+
+### 1. Category Competition
+
+Some categories contain significantly more applications than others, indicating a higher level of market saturation and competition.
+
+### 2. User Ratings
+
+Ratings vary across applications and categories, providing an indication of differences in user satisfaction.
+
+### 3. Monetization
+
+Paid applications and their estimated revenue patterns show that pricing and install volume can both influence potential revenue.
+
+### 4. User Sentiment
+
+Review sentiment provides additional information beyond numerical ratings and helps identify how users express their experiences with applications.
+
+---
+
+## 💡 Developer Takeaways
+
+A developer planning to launch a new application should consider multiple factors rather than focusing only on category popularity.
+
+Important factors include:
+
+* Market competition
+* User ratings
+* Number of installs
+* Pricing strategy
+* Potential revenue
+* User sentiment
+
+Combining these factors can provide a more comprehensive view of the Android app market.
+
+---
+
+## 👩‍💻 Author
+
+**Mehwish Iqbal**
+
+Aspiring Data Analyst | Python Data Analysis | Exploratory Data Analysis
+
+GitHub: 
+
+https://github.com/mehwish-Iqbal/data-analyst-portfolio/blob/05c7fd9b95188471fe8306926de7fda077e619eb/README.md
+
+---
+
+## 📌 Internship
+
+**OIBSIP / AICTE Internship**
+
+**Task_3  — Unveiling the Android App Market (Google Play Store Analysis)**
+
+This project demonstrates practical skills in **data cleaning, exploratory data analysis, visualization, sentiment analysis, and business-oriented insights using Python.**
