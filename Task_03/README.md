@@ -137,9 +137,18 @@ The analysis also explored sentiment patterns across application categories to u
 
 ---
 
-## 📈 Interactive Visualization
 
-An interactive Plotly visualization was created to explore the relationship between:
+## 📈 Interactive Visualization — Plotly
+
+ 1) An interactive category-level visualization was created using Plotly to explore:
+
+ **App count VS Average app rating by category**
+
+ * The interactive chart allows users to hover over categories
+* Explore the app count and average rating dynamically.
+
+
+2) An interactive Plotly visualization was created to explore the relationship between:
 
 **Number of Reviews vs. App Rating**
 
@@ -193,7 +202,11 @@ Combining these factors can provide a more comprehensive view of the Android app
 
 **Mehwish Iqbal**
 
-Aspiring Data Analyst | Python Data Analysis | Exploratory Data Analysis
+Aspiring Data Analyst 
+
+Linkdin:
+
+www.linkedin.com/in/mehwish-iqbal-2584b3395
 
 GitHub: 
 
@@ -201,10 +214,18 @@ https://github.com/mehwish-Iqbal/data-analyst-portfolio/blob/05c7fd9b95188471fe8
 
 ---
 
-## 📌 Internship
+## 🎓 Internship Experience
 
-**OIBSIP / AICTE Internship**
+**OIBSIP / AICTE Internship — Final Project (Task 3)**
 
-**Task_3  — Unveiling the Android App Market (Google Play Store Analysis)**
+This project marks the completion of my internship project work and provided practical experience in working with a real-world dataset using **Python**.
 
-This project demonstrates practical skills in **data cleaning, exploratory data analysis, visualization, sentiment analysis, and business-oriented insights using Python.**
+Through this project, I strengthened my skills in **data cleaning, exploratory data analysis, data visualization, sentiment analysis, and deriving business-oriented insights** from data.
+
+The internship provided valuable hands-on exposure to the **end-to-end data analysis workflow**, from raw data preprocessing to visualization and insight generation.
+
+### 📌 Completion Note
+
+Successfully completed the final project of the internship, applying practical data analysis techniques to uncover meaningful insights from the **Google Play Store ecosystem**.
+
+ **Thanks**
