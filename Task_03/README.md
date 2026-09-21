@@ -140,17 +140,14 @@ The analysis also explored sentiment patterns across application categories to u
 
 ## 📈 Interactive Visualization — Plotly
 
- 1) An interactive category-level visualization was created using Plotly to explore:
+  Both interactive category-level visualization was created using Plotly to explore:
 
- **App count VS Average app rating by category**
+ **1) App count VS Average app rating by category**
 
  * The interactive chart allows users to hover over categories
 * Explore the app count and average rating dynamically.
 
-
-2) An interactive Plotly visualization was created to explore the relationship between:
-
-**Number of Reviews vs. App Rating**
+**2) Number of Reviews vs. App Rating**
 
 The visualization allows users to:
 
@@ -161,40 +158,37 @@ The visualization allows users to:
 
 ---
 
-## 🔍 Key Insights
+## 19. Final Conclusion
 
-### 1. Category Competition
+### Key Insights
 
-Some categories contain significantly more applications than others, indicating a higher level of market saturation and competition.
+1. **Saturation Insight:**
+   FAMILY has the largest number of apps (1,832), indicating strong competition in this category.
 
-### 2. User Ratings
+2. **Rating Insight:**
+   EVENTS has the highest average rating among categories with available ratings (4.44/5).
 
-Ratings vary across applications and categories, providing an indication of differences in user satisfaction.
+3. **Revenue Insight:**
+   FAMILY has the highest estimated revenue among paid apps ($113.68M), calculated using installs × price.
 
-### 3. Monetization
+4. **Developer Takeaway:**
+   Category selection should consider **competition, user ratings, monetization potential, and review sentiment** together rather than relying on popularity alone.
 
-Paid applications and their estimated revenue patterns show that pricing and install volume can both influence potential revenue.
+### Key Questions Answered
 
-### 4. User Sentiment
+* Which categories are most saturated?
+* What does the rating distribution look like?
+* Does app size appear related to installs?
+* Are most apps free or paid?
+* How are paid-app prices distributed?
+* Which categories have the highest estimated revenue?
+* What is the overall user sentiment?
+* Which categories have the most positive and negative sentiment?
 
-Review sentiment provides additional information beyond numerical ratings and helps identify how users express their experiences with applications.
+### Final Recommendation
 
----
+A new developer should evaluate **competition, average ratings, estimated revenue, and user sentiment** before selecting an app category. Categories with user demand, manageable competition, and clear problems identified through reviews may provide useful opportunities for new apps.
 
-## 💡 Developer Takeaways
-
-A developer planning to launch a new application should consider multiple factors rather than focusing only on category popularity.
-
-Important factors include:
-
-* Market competition
-* User ratings
-* Number of installs
-* Pricing strategy
-* Potential revenue
-* User sentiment
-
-Combining these factors can provide a more comprehensive view of the Android app market.
 
 ---
 
@@ -204,13 +198,9 @@ Combining these factors can provide a more comprehensive view of the Android app
 
 Aspiring Data Analyst 
 
-Linkdin:
+Linkdin:  www.linkedin.com/in/mehwish-iqbal-2584b3395
 
-www.linkedin.com/in/mehwish-iqbal-2584b3395
-
-GitHub: 
-
-https://github.com/mehwish-Iqbal/data-analyst-portfolio/blob/05c7fd9b95188471fe8306926de7fda077e619eb/README.md
+GitHub:   https://github.com/mehwish-Iqbal/data-analyst-portfolio/blob/05c7fd9b95188471fe8306926de7fda077e619eb/README.md
 
 ---
 
